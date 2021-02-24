@@ -2,6 +2,7 @@
 
 In this project, I am utilizing an extended kalman filter to estimate the state of a moving vehicle with noisy lidar and radar measurements.
 The source file will work in connection to this [simulator](https://github.com/udacity/self-driving-car-sim/releases).
+You can find the visualization of the estimation performance in this [video](https://youtu.be/hVaVZWJ05Jw).
 
 To successfully run the source code, you need to install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) on your machine. 
 
@@ -35,5 +36,3 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 3. Compile: `cmake .. && make` 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF `
-
-You can find the visualization of the estimation performance in this [video](https://youtu.be/hVaVZWJ05Jw).
